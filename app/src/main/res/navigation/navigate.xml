@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigate"
+    app:startDestination="@id/spaceFragment">
+
+    <fragment
+        android:id="@+id/ITFragment"
+        android:name="com.example.a4pic.ui.fragment.space.it.ITFragment"
+        android:label="fragment_i_t"
+        tools:layout="@layout/fragment_i_t" />
+    <fragment
+        android:id="@+id/poetryFragment"
+        android:name="com.example.a4pic.ui.fragment.space.poetry.PoetryFragment"
+        android:label="fragment_poetry"
+        tools:layout="@layout/fragment_poetry" />
+    <fragment
+        android:id="@+id/spaceFragment"
+        android:name="com.example.a4pic.ui.fragment.space.space.SpaceFragment"
+        android:label="fragment_space"
+        tools:layout="@layout/fragment_space" />
+</navigation>

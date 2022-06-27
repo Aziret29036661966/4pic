@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.space.poetry.PoetryFragment">
+
+    <ImageView
+        android:id="@+id/space1"
+        android:layout_width="140dp"
+        android:layout_height="180dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="26dp"
+        android:src="@drawable/poetry" />
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="180dp"
+        android:src="@drawable/poetry"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="26dp"/>
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="180dp"
+        android:src="@drawable/poetry"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="96dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="56dp"
+        />
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="180dp"
+        android:src="@drawable/poetry"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="96dp"/>
+
+    <EditText
+        android:id="@+id/ed_text"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginBottom="132dp"
+        android:hint="Enter your word"
+        android:paddingStart="16dp"
+        android:textAlignment="textStart"
+        android:layout_alignBottom="@id/space1"
+        android:background="@drawable/rectangle_ed"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/ed_text"
+        android:layout_marginStart="140dp"
+        android:text="next level"
+        android:textColor="@color/black"
+        android:layout_marginBottom="-73dp" />
+
+
+</RelativeLayout>
